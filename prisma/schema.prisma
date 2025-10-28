@@ -5,13 +5,13 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider = "prisma-client-js"
 }
+
 
 datasource db {
   provider = "postgresql"
-  url      = "prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza19hcGU3YnBZMU9mQktHc3EwRldCYWsiLCJhcGlfa2V5IjoiMDFLOE4zWFZOWTJQQjYyVkJXNDZRRENNVkciLCJ0ZW5hbnRfaWQiOiJiZDcxZGExODFkNzUyNDQwYmRlNjMwOTRhZDQ5NGZhODcxYjY1Y2EzNDMwODI0YzM4YTE2MDdkYzZlNTdiY2NkIiwiaW50ZXJuYWxfc2VjcmV0IjoiNmUxNjM4ZjktYzRiYy00ZWIwLWFmY2MtNGI4MmZmMTFlOWYwIn0.8NIGhp2I2vembsd7jmduIM1FyxtCIidRkIlSNa99bO8"
+  url      = "postgres://bd71da181d752440bde63094ad494fa871b65ca3430824c38a1607dc6e57bccd:sk_ape7bpY1OfBKGsq0FWBak@db.prisma.io:5432/postgres?sslmode=require"
 }
 
 enum BoardType {
