@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --coverage",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "migrate-dev": "prisma migrate dev",
+    "studio": "prisma studio"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.9.1",
